@@ -1,0 +1,71 @@
+html {
+    background-color: #e0e3e9;
+}
+
+div {
+    /* border: 3px red solid; */
+    
+}
+
+#display_spread{
+    border-bottom: 5px solid rgb(252, 248, 248);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: #e0e3e9;
+   align-items:center;
+   padding-top: 3%;
+}
+
+.item{
+    background-color: rgb(252, 248, 248);
+    padding: 1%;
+    width: 30%;
+    
+}
+
+
+#left{
+    width: 50%;
+}
+
+#right{
+    width: 50%;
+    padding-left: 5%;
+}
+
+ 
+.SpreadTable tr td {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .SpreadTable tr th {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+
+#Ktable tr td{
+    width: 33%;
+    border: 2px gainsboro solid;
+    text-align: center;
+}   
+
+#Ktable tr th{
+    border: 2px gainsboro solid;
+    text-align: center;
+}
+
+#box_K{
+    background-color: rgb(252, 248, 248);
+    padding: 1%;
+}
+
+.change{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}

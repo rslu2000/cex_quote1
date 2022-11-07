@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <form>
+            <select id="Cryptocurrency">
+                <option>choose the Cryptocurrency</option>
+                <option value="B">BTC/USD</option>
+                <option value="E">ETH/USD</option>
+                <option value="D">DOGE/USD</option>
+            </select>
+            <select id="K_stream">
+                <option>choose the stream</option>
+                <option value="1">1 min</option>
+                <option value="5">5 mins</option>
+                <option value="30">30 mins</option>
+            </select>
+            <button onch=""></button>
+        </form>
+
+        <script>
+            var valueCC = document.getElementById("Cryptocurrency").value;
+            //var valueCC = selectCC.options[selectCC.selectedIndex].value;
+            var selectK = document.getElementById("K_stream").value;
+            //var valueK = selectK.options[selectK.selectedIndex].value;
+
+            if(valueCC=="B"){
+                if(selectK==1)
+                    var text = document.createElement("p");
+                    text.innerHTML+="hi!"
+            }
+
+        </script>
+    </body>
+</html>
